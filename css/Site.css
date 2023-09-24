@@ -3,7 +3,7 @@
 }
 
 @font-face {
-    font-family: "Assistant";
+    font-family: Assistant;
     src: url("../fonts/Assistant/Assistant-VariableFont_wght.ttf");
 }
 
@@ -12,12 +12,33 @@
     src: url("../fonts/Inika/Inika-Regular.ttf");
 }
 
-.barra-navegacao {
+body {
+    font-family: "Assistant";
+}
+
+.navbar {
+    position: relative;
+    display: flex;
     list-style-type: none;
-    margin: zero;
-    padding: zero;
-    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: var(--vermelho);
+}
+
+.barra-navegacao {    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 16px 14px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
 }
 
 .float-left {
@@ -28,15 +49,6 @@
     float: right;
 }
 
-#comment {
-    background-image: url("../img/comment-solid.svg");
-}
-
-#bell {
-    background-image: url("../img/bell-solid.svg");
-}
-
-.navbar-icon {
-    height: 20px;
-    width: 20px;
+.inika {
+    font-family: Inika;
 }
