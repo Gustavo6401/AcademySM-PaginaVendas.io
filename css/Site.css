@@ -1,0 +1,42 @@
+:root {
+    --vermelho: #c32323;
+}
+
+@font-face {
+    font-family: "Assistant";
+    src: url("../fonts/Assistant/Assistant-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Inika";
+    src: url("../fonts/Inika/Inika-Regular.ttf");
+}
+
+.barra-navegacao {
+    list-style-type: none;
+    margin: zero;
+    padding: zero;
+    overflow: hidden;
+    background-color: var(--vermelho);
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+#comment {
+    background-image: url("../img/comment-solid.svg");
+}
+
+#bell {
+    background-image: url("../img/bell-solid.svg");
+}
+
+.navbar-icon {
+    height: 20px;
+    width: 20px;
+}
