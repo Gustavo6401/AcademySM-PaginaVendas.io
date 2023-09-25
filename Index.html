@@ -5,26 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Vendas</title>
     <link rel="stylesheet" href="css/Site.css">
+    <script src="js/Script.js" defer></script>
 </head>
 <body>
-    <nav class="navbar">
-        <ul class="barra-navegacao">
-            <li class="navbar-buttom float-left">
-                <a class="nav-link inika" href="#">Academy SM</a>
-            </li>
-            <li class="navbar-buttom float-left">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="navbar-buttom float-left">
-                <a class="nav-link" href="#">Artigos</a>
-            </li>
-            <li class="navbar-buttom float-left">
-                <a class="nav-link" href="#">Grupos</a>
-            </li>
-            <li class="navbar-buttom float-left">
-                <a class="nav-link" href="#">Dúvidas</a>
-            </li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-toggle" id="menuToggle">
+                <!--Isso daqui está funcionando como pequenas "linhas" feitas para exibir o conteúdo.-->
+                <div class="nav-toggle-item"></div>
+                <div class="nav-toggle-item"></div>
+                <div class="nav-toggle-item"></div>
+            </div>
+            <ul class="barra-navegacao closed" id="menu">
+                <li class="navbar-li">
+                    <a class="nav-link inika" href="#">Academy SM</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="nav-link" href="#">Artigos</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="nav-link" href="#">Grupos</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="nav-link" href="#">Dúvidas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
