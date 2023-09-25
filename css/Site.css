@@ -18,6 +18,7 @@ body {
     font-family: "Assistant";
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 /*Barra de Navegação*/
@@ -72,6 +73,32 @@ nav ul li {
     font-family: Inika;
 }
 
+/*Elementos alinhados em uma linha só.*/
+
+.lg-display-grid-2-col {
+    display: grid;
+    grid-template-columns: 48vw 48vw;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.artigo {
+    display: flex;
+    justify-content: center;
+}
+
+.artigo article {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -105,5 +132,14 @@ nav ul li {
 
     .barra-navegacao.open {
         max-height: 300px;
+    }
+
+    .sm-display-1-col {
+        display: grid;
+        grid-template-columns: 98vw;
+    }
+
+    .sm-display-none {
+        display: none;
     }
 }
