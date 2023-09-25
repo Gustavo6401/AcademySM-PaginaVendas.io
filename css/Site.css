@@ -124,6 +124,30 @@ h1 {
     margin: 10px;
 }
 
+/*Imagens*/
+.images {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.images img {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 2px;
+}
+
+.img-mobile {
+    width: 97.5px;
+    height: 211px;
+}
+
+.img-pc {
+    width: 320px;
+    height: 208px;
+}
+
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
