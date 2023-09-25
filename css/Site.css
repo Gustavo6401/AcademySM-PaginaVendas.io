@@ -23,7 +23,6 @@ body {
 /*Barra de Navegação*/
 .navbar {
     display: flex;
-    justify-content: space-between;
     background-color: var(--vermelho);
     color: white;
     padding: 20px;
@@ -58,6 +57,7 @@ nav ul li {
     color: white;
     text-decoration: none;
     padding: 9px 9px;
+    font-size: 20px;
 }
 
 .float-left {
@@ -73,8 +73,23 @@ nav ul li {
 }
 
 @media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        display: flex;
+        width: 100%
+    }
+
+    .row {
+        flex-direction: row;
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        margin-right: 2vw;
+    }
+
     .navbar-toggle {
         display: flex;
+        margin-right: 5vw;
     }
 
     .barra-navegacao {
