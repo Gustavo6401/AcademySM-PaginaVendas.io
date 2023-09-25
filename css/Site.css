@@ -1,5 +1,6 @@
 :root {
     --vermelho: #c32323;
+    --cinza: #F1F0F0;
 }
 
 /*Fontes*/
@@ -19,6 +20,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-size: 20px;
 }
 
 /*Barra de Navegação*/
@@ -73,7 +75,7 @@ nav ul li {
     font-family: Inika;
 }
 
-/*Elementos alinhados em uma linha só.*/
+/*Artigo*/
 
 .lg-display-grid-2-col {
     display: grid;
@@ -97,6 +99,29 @@ h1 {
     justify-content: center;
     display: flex;
     text-align: center;
+}
+
+/*Botão*/
+.botao {
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 25px;  
+}
+
+.vermelho {
+    color: white;
+    background-color: var(--vermelho);
+}
+
+.cinza {
+    background-color: var(--cinza);
+    color: var(--vermelho);
+}
+
+.mg-10px {
+    margin: 10px;
 }
 
 @media screen and (max-width: 768px) {
