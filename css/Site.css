@@ -148,6 +148,49 @@ h1 {
     height: 208px;
 }
 
+/*Seção 2*/
+.section-2 {
+    /*As mesmas regras do artigo, coloquei aqui para organizar melhor o código.*/
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: var(--vermelho);
+    margin-left: 0;
+}
+
+.habilidades {
+    flex-direction: row;
+    display: inline-block;
+    justify-content: center;
+}
+
+.habilidades div {
+    flex-direction: row;
+    display: inline-block;
+    justify-content: center;
+}
+
+.caixa-habilidade {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: white;
+    color: var(--vermelho);
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.caixa-habilidade i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.caixa-habilidade label {
+    display: block;
+}
+
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
