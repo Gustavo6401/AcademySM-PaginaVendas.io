@@ -234,4 +234,9 @@ h1 {
     .sm-display-none {
         display: none;
     }
+
+    .habilidades {
+        display: flex;
+        flex-direction: column;
+    }
 }
