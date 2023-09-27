@@ -191,6 +191,21 @@ h1 {
     display: block;
 }
 
+.d-inline {
+    display: inline-block;
+}
+
+.secao-3 {
+    display: block;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .lg-display-none {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
