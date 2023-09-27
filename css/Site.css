@@ -200,6 +200,14 @@ h1 {
     text-align: center;
 }
 
+#formulario {
+    display: none;
+}
+
+.mg-20px {
+    margin: 20px;
+}
+
 @media screen and (min-width: 768px) {
     .lg-display-none {
         display: none;
